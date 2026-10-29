@@ -221,9 +221,8 @@ illustrative — replace it.
 | 28 | Decisions required | Steering meetings and phase gates. What needs deciding, the options, and by when |
 
 Use one, not both. Next steps closes a working session; decisions closes a governance
-meeting. The old GTM thank-you slide was removed — "Ready to get started? Visit us at
-v4c.ai" is a prospect CTA, not something to show a client you are already delivering
-for.
+meeting. Don't close on a sales call to action such as "Ready to get started?": it is
+not something to show a client you are already delivering for.
 
 If you cannot fill in the closing slide, the meeting did not conclude anything. That is
 the point of it.
