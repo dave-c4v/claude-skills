@@ -286,35 +286,23 @@ client.
 
 ---
 
-## 10. Template status
+## 10. Template notes
 
-One template was built from the original master on 2026-09-16:
-`v4c-master-template.potx`, 28 slides, validated clean and packaged as a genuine
-template. Earlier drafts split dark and light into separate files; that was wrong — the
-dark slides are structural and belong inside a deck, not in one of their own.
+`v4c-master-template.potx` has 28 slides: the inventory in section 6.
 
-**Fixed in the template:**
+**What the template gets right:**
 
-- Colour schemes corrected. All seven themes now declare `accent1 #916DF9` and
-  `accent2 #2AB1AC` instead of stock Google blue, so anything generated from the theme
-  swatches comes out on-brand.
-- Unreferenced layouts pruned, 256 down to 128.
-- GTM and internal-sales content removed: the Databricks and Dataiku co-sell sections,
-  Elevate programme slides, territory assignments, momentum and top-performer slides,
-  three client logo walls, and feedback slides carrying real client contacts.
-- Four delivery archetypes added (section 6) — data, architecture, RAID, milestones.
-- GTM thank-you slide replaced with two delivery closings — next steps, and decisions
-  required.
+- Every theme declares `accent1 #916DF9` and `accent2 #2AB1AC` rather than stock
+  Google blue, so anything built from the theme swatches comes out on-brand.
+- The four delivery archetypes (section 6) and the two delivery closings, next steps
+  and decisions required.
 
-**Still outstanding — needs a manual pass:**
+**Known quirks:**
 
-- **Masters are still misnamed.** Six masters, names unchanged. The brand design lives
-  on "Simple Light"; "V4C Official theme" does not. Renaming would remove a real trap.
-- **Orphan masters survive.** "Dataiku Template 2024" and "Default" have no slides
-  attached but are still in the file. Automated cleanup won't remove them safely —
-  layout inheritance breaks if it's done carelessly.
-- **Some off-palette colour remains.** Mostly on the timeline slide. Restyle to
-  section 2 when you next touch it.
-- **Font sprawl untouched.** 79 font parts, 21 families, against Poppins doing ~90% of
-  the work. This is most of the file size. Pruning needs a visual check across every
-  layout afterwards, so it's a human-supervised job.
+- **Masters are misnamed.** The brand design lives on "Simple Light", not on
+  "V4C Official theme" (section 0). Build on "Simple Light".
+- **Unused masters remain.** Some masters have no slides attached. Don't build on them.
+- **Some off-palette colour remains**, mostly on the timeline slide. Restyle to
+  section 2 when you use it.
+- **The file is large** (about 18MB), mostly embedded fonts. Poppins is the only one to
+  use (section 4).
