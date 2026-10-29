@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "client": "[Client]",
+    "docType": "[Document type]",
+    "title": "[Document title]",
+    "shortTitle": "[Short title]",
+    "subtitle": "[One line on what this document is for and who it is for]",
+    "preparedFor": "[Client stakeholder], [Role], [Client]",
+    "preparedBy": "v4c.ai  |  [Name], [Title]",
+    "date": "[Date]",
+    "version": "0.1",
+    "status": "Draft for V4C review",
+    "draft": true
+  },
+  "blocks": [
+    { "type": "docControl", "rows": [
+      ["0.1", "[Date]", "[Author]", "First draft for internal V4C review"],
+      ["1.0", "[Date]", "[Author]", "Released to [Client] after sign-off"]
+    ] },
+    { "type": "signoff" },
+    { "type": "contents" },
+
+    { "type": "h1", "text": "Summary", "kicker": "Start here" },
+    { "type": "lead", "text": "[Lead paragraph. State the answer or recommendation in two sentences. A reader who stops here should know what this document concludes.]" },
+    { "type": "p", "text": "[Body text. Poppins 9.5pt in #3E3E3E. Sentence case headings, short paragraphs, and **bold** for the one phrase per paragraph that matters. Use *italics* sparingly.]" },
+    { "type": "metrics", "items": [
+      { "value": "[00]", "label": "[Metric label, one line]" },
+      { "value": "[00%]", "label": "[Metric label, one line]" },
+      { "value": "[0.0x]", "label": "[Metric label, one line]" }
+    ], "caption": "Source: [system, report or date]. Every figure needs a source line." },
+    { "type": "callout", "tone": "key", "title": "Recommendation", "body": "[The single recommendation this document makes, in one or two sentences.]" },
+
+    { "type": "h1", "text": "Context and scope", "kicker": "Background", "newPage": true },
+    { "type": "h2", "text": "[Heading 2: a topic within the section]" },
+    { "type": "p", "text": "[Narrative prose. Context, rationale, background. Keep it to what the reader needs to act on the document.]" },
+    { "type": "bullets", "items": [
+      "[In scope item, one line]",
+      "[In scope item, one line]",
+      "[Out of scope item, stated explicitly]"
+    ] },
+    { "type": "h3", "text": "[Heading 3: purple, for sub-points]" },
+    { "type": "p", "text": "[Use H3 sparingly. If a section needs four levels of heading it wants splitting.]" },
+    { "type": "callout", "tone": "note", "title": "Note", "body": "[Neutral aside: an assumption, a definition, or a pointer to a source.]" },
+
+    { "type": "h1", "text": "Approach", "kicker": "How", "newPage": true },
+    { "type": "numbered", "items": [
+      "**[Step name].** [What happens, who does it, what it produces.]",
+      "**[Step name].** [What happens, who does it, what it produces.]",
+      "**[Step name].** [What happens, who does it, what it produces.]"
+    ] },
+    { "type": "table", "columns": ["[Column]", "[Column]", "[Column]"],
+      "rows": [["[Value]", "[Value]", "[Value]"], ["[Value]", "[Value]", "[Value]"], ["[Value]", "[Value]", "[Value]"]],
+      "widths": [1, 2, 2], "caption": "Table 1. [Caption states the takeaway, not the variable.]" },
+
+    { "type": "h1", "text": "Risks, assumptions, issues and dependencies", "kicker": "RAID", "newPage": true },
+    { "type": "raid", "rows": [
+      { "type": "Risk", "description": "[Risk and its impact]", "owner": "[Owner]", "due": "[Date]", "status": "Open" },
+      { "type": "Assumption", "description": "[Assumption the plan relies on]", "owner": "[Owner]", "due": "[Date]", "status": "Open" },
+      { "type": "Issue", "description": "[Issue already affecting delivery]", "owner": "[Owner]", "due": "[Date]", "status": "Open" },
+      { "type": "Dependency", "description": "[Dependency on a team, system or decision]", "owner": "[Owner]", "due": "[Date]", "status": "Open" }
+    ] },
+
+    { "type": "h1", "text": "Decisions and next steps", "kicker": "Close", "newPage": true },
+    { "type": "callout", "tone": "decision", "title": "Decision required", "body": "[The decision the reader must make, the options, and the date it is needed by.]" },
+    { "type": "decisions", "rows": [
+      { "decision": "[What needs deciding]", "options": "[Option A / Option B]", "recommendation": "[V4C recommendation and why]", "by": "[Date]" }
+    ] },
+    { "type": "actions", "rows": [
+      { "action": "[Action, starting with a verb]", "owner": "[Name]", "side": "V4C", "due": "[Date]" },
+      { "action": "[Action, starting with a verb]", "owner": "[Name]", "side": "Client", "due": "[Date]" }
+    ] },
+    { "type": "caption", "text": "Use one closing pattern: next steps for a working document, decisions for a steering or phase-gate document. Delete the other." }
+  ]
+}

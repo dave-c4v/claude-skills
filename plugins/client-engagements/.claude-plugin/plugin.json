@@ -1,0 +1,8 @@
+{
+  "name": "client-engagements",
+  "version": "0.1.0",
+  "description": "Skills for V4C external client engagements: house style for client documents and slide decks.",
+  "author": {
+    "name": "V4C"
+  }
+}

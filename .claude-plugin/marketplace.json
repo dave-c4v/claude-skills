@@ -1,0 +1,17 @@
+{
+  "name": "v4c-claude-skills",
+  "owner": {
+    "name": "V4C"
+  },
+  "metadata": {
+    "description": "V4C Claude plugins for external client engagements."
+  },
+  "plugins": [
+    {
+      "name": "client-engagements",
+      "source": "./plugins/client-engagements",
+      "description": "Skills for V4C external client engagements: house style for client documents and slide decks.",
+      "version": "0.1.0"
+    }
+  ]
+}

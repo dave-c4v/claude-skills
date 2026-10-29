@@ -1,0 +1,4 @@
+{"meta":{"client":"[Client]","docType":"Status report","title":"Weekly delivery status","shortTitle":"Weekly status, w/c 21 Sep","cover":false},
+"blocks":[{"type":"h1","text":"Summary"},{"type":"lead","text":"On track. Bronze ingestion is complete; silver is blocked on one access request."},
+{"type":"raid","rows":[{"type":"Issue","description":"Catalog access not granted for silver schema","owner":"[Name]","due":"25 Sep","status":"Open"}]},
+{"type":"actions","rows":[{"action":"Raise the catalog access request","owner":"[Name]","side":"Client","due":"25 Sep"},{"action":"Finish silver conformance rules","owner":"[Name]","side":"V4C","due":"2 Oct"}]}]}

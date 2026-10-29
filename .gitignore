@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# build outputs from trying the skills locally
+*.docx
+*.pptx
+*.spec.json
