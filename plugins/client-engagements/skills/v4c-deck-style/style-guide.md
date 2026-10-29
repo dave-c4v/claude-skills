@@ -7,7 +7,7 @@ A V4C deck is **predominantly light**. Dark is reserved for structure — the ti
 section breaks and the closing — which is why the template is 21 light slides against 7
 dark. Dark is a punctuation mark, not an alternative theme.
 
-Extracted from `[Template] v4c.ai Master Slides (DO NOT EDIT)` (47 slides, 6 masters,
+Extracted from the original V4C master slides template (47 slides, 6 masters,
 7 themes) on 2026-09-16. The template remains the source of truth; this file records
 what it does and the judgement a theme file can't encode.
 
@@ -107,7 +107,7 @@ belong to the master, not to individual slides — don't hand-draw them.
 - **Top-left tab** — small blue/purple rectangle at the top edge, ~0.5in wide.
 - **V4C logo** — top-right on content slides; top-left on the title slide. White on
   dark (`assets/logo-white.png`), full-colour on light (`assets/logo-color.png`, the
-  official "V4Cai - LOGO - FULL COLOR" file from V4C's Drive Logo folder, transparent
+  official "V4Cai - LOGO - FULL COLOR" file, transparent
   ground). Never recolour or stretch it, and never put the white logo on a navy chip on
   a light slide.
 - **Corner chevron** — small gradient mark, bottom-right, on some light layouts.
@@ -273,16 +273,15 @@ compressing.
 
 **Google Slides:** Slide → Change theme → Import theme, pick the master template.
 
-**PowerPoint:** `v4c-master-template.potx` lives in `06 Delivery / 03 Templates &
-Accelerators`. Open it to start a new deck — PowerPoint creates a copy rather than
+**PowerPoint:** open `v4c-master-template.potx` to start a new deck — PowerPoint creates
+a copy rather than
 editing the template.
 
 **Claude-generated decks:** reference this file. Canvas size, Poppins, the token table,
 the brand furniture in section 3, and section 8 are what most determine whether output
 reads as V4C.
 
-**Review:** generated decks are drafts until a named V4C reviewer signs off (V4C's org
-instructions). Check contrast, overflow, and leftover placeholders before anything reaches a
+**Review:** generated decks are drafts until a named V4C reviewer signs off. Check contrast, overflow, and leftover placeholders before anything reaches a
 client.
 
 ---

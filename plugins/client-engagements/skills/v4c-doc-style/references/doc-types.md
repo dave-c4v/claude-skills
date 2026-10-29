@@ -91,8 +91,7 @@ Required when V4C delivers an AI system to a client. Close: decisions (acceptanc
 10. RAID
 11. Acceptance decisions
 
-Log the document in the ISO 42001 use-case register (what was generated, who
-reviewed it). Scope, licensing or appropriate-use questions go to the Claude program
+Scope, licensing or appropriate-use questions go to the Claude program
 owner before release.
 
 ## Proposal / statement of work

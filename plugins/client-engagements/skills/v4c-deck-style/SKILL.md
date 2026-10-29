@@ -12,8 +12,8 @@ reviewing any deck. This file covers how to apply it.
 ## Two routes, and which one applies
 
 **A person is building the deck themselves** → point them at
-`v4c-master-template.potx` in `06 Delivery / 03 Templates & Accelerators` on Drive.
-It has 28 ready layouts. Building from the template beats building from a spec. Use
+the V4C master template, `v4c-master-template.potx`. It has 28 ready layouts. Building
+from the template beats building from a spec. Use
 `style-guide.md` to answer questions about which slide to use and what not to do.
 
 **Claude is generating the deck** → build it with pptxgenjs from the spec below. The
@@ -167,15 +167,14 @@ decoratively destroys that signal.
 - Check every text box against the margins: nothing crosses 0.4in.
 - Check no title runs under the logo.
 - Search for `Lorem`, `TODO`, `XXX`, `[insert]` and any sample content left in place.
-- Engagement terms follow the practice glossary: "vRamp" for the time box, "vRamp build" for built outputs, "pilot" for user cohorts, "project repository" for source control. No "PoC" or "proof of concept" for the engagement. (Glossary: CLAUDE.md, Engagement terminology, in the claude-enablement repo.)
+- Engagement terms: "vRamp" for the time box, "vRamp build" for built outputs, "pilot" for user cohorts, "project repository" for source control. No "PoC" or "proof of concept" for the engagement.
 - Don't show internal reference codes (action IDs such as T1, D3) on a slide unless that
   slide also shows the table that defines them.
 - Architecture diagrams use generic icons with platform names as labels, not vendor
   logos, and mark undecided components as dashed with a legend.
 - Confirm no client PII, credentials, or internal figures made it into a shared deck.
 
-Generated decks are drafts until a named V4C reviewer signs off (V4C's org
-instructions). Say so when handing one over.
+Generated decks are drafts until a named V4C reviewer signs off. Say so when handing one over.
 
 ## pptxgenjs gotchas
 

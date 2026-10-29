@@ -16,10 +16,9 @@ pages and must not contradict it.
 ## Two routes
 
 **A person is writing the document themselves** → point them at the
-**V4C Document Master** Google Doc in `06 Delivery / 03 Templates & Accelerators` and
-tell them to use File → Make a copy. If it is not there yet, build
-`templates/master-template.json` (below), upload the `.docx` to that folder and open it
-with Google Docs.
+**V4C Document Master** Google Doc and tell them to use File → Make a copy. If they
+don't have it, build `templates/master-template.json` (below), upload the `.docx` to
+Drive and open it with Google Docs.
 
 **Claude is generating the document** → write a content spec as `<name>.spec.json`,
 then build it. Run this as one command, since shell variables don't carry over between
@@ -64,7 +63,7 @@ retrieved for this client.
    logo or page number ends up on the left. `build_doc.js` does this already; keep it
    that way if you edit the builder.
 5. **Draft until signed off.** `status` stays "Draft for V4C review" and `draft: true`
-   until a named V4C reviewer completes the review block (V4C's org instructions). Say so
+   until a named V4C reviewer completes the review block. Say so
    when handing over.
 6. **One client per document.** No other client's names, logos, metrics or case
    studies, and no internal sales or partner content.
@@ -77,7 +76,7 @@ retrieved for this client.
 - Leave bracketed placeholders only where information was not supplied, and list them
   when handing over. Never invent names, dates or figures.
 - Flag cloud-provider-dependent recommendations and ask if the provider is unknown.
-- Engagement terms follow the practice glossary: "vRamp" for the time box, "vRamp build" for built outputs, "pilot" for user cohorts. No "PoC" or "proof of concept" for the engagement. (Glossary: CLAUDE.md, Engagement terminology, in the claude-enablement repo.)
+- Engagement terms: "vRamp" for the time box, "vRamp build" for built outputs, "pilot" for user cohorts. No "PoC" or "proof of concept" for the engagement.
 - AI system deliverables use the ISO 42001 skeleton in `references/doc-types.md`.
 
 ## Before handing anything over
@@ -111,8 +110,7 @@ retrieved for this client.
    → Open with → Google Docs → check fonts, header, footer and page numbers → delete
    the leftover `.docx`. Also confirm the header logo and page number are still
    right-aligned. Only upload to Drive on the user's say-so.
-5. Note that the document needs a named V4C reviewer before release, and that
-   significant AI-assisted deliverables go in the ISO 42001 use-case register.
+5. Note that the document needs a named V4C reviewer before release.
 
 ## Regenerating assets
 

@@ -47,7 +47,7 @@ Tokens are the deck tokens. No new colours.
 | Page number | Footer, right | Field |
 
 **Full-colour logo, chip retired (September 2026):** the official full-colour logo
-("V4Cai - LOGO - FULL COLOR" in V4C's Drive Logo folder) is now in `assets/logo-color.png`
+("V4Cai - LOGO - FULL COLOR") is now in `assets/logo-color.png`
 and replaces the white-logo-on-navy chip in the header. `assets/logo-chip.png` stays in
 the folder only as a fallback; do not use it on light pages.
 
@@ -135,9 +135,8 @@ be checked after each upload (section 9).
   and footer alignment uses borderless tables, which survive the import; right tab stops do not.
 - If Poppins renders as Arial, the import did not map it: select all → Poppins.
 - Set File → Page setup → **Pages** if the document opens pageless.
-- For a reusable Docs template: keep the converted master in
-  `06 Delivery / 03 Templates & Accelerators` and start each document with
-  File → Make a copy. Adding it to the organisation's Docs template gallery is a
+- For a reusable Docs template: keep the converted master in a shared Drive folder
+  and start each document with File → Make a copy. Adding it to the organisation's Docs template gallery is a
   Workspace admin action.
 
 ## 9. Before handing anything over

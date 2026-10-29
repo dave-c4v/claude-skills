@@ -13,8 +13,7 @@ The folder must hold every file in `files`. It is:
         puts before the skill's name ("client-engagements:" for "client-engagements:v4c-doc-style").
 Nothing else is searched. When nothing qualifies, the error lists every step in order.
 
-Ported from the claude-enablement repo, where a JavaScript twin
-(architecture-slide/scripts/sibling_skill.js) shares this lookup. Stdlib only.
+Stdlib only.
 """
 import os
 from pathlib import Path
